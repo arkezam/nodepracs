@@ -10,8 +10,8 @@ for (let i = 0; i < base; i++) {
     salida +=  `el resultado de  ${base} x  ${i} =  ${resultado}\n` ;
 
 } 
-    const nombrea = await base
- return fn.writeFileSync(`tabla-de-${base}.txt`,salida)
+    fn.writeFileSync(`./salida/tabla-de-${base}.txt`,salida)
+ return  `tabla-de-${base}.txt`
 
 }
 
