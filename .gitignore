@@ -1,0 +1,6 @@
+/api
+/routers
+/node_modules
+/salida/*.txt
+app.js
+server.js
